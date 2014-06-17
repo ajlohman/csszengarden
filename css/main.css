@@ -186,23 +186,16 @@ a:hover {
   margin: 0;
 }
 header {
+  background: pink;
   overflow: hidden;
-  width: 40%;
-  height: 50em;
-  float: left;
-  position: relative;
 }
 h1 {
-  position: absolute;
   font-size: 100%;
-  line-height: 2em;
-  top: 3em;
-  left: -3em;
+  top: 60px;
+  left: -55px;
+  padding: 10px;
   margin: 0;
-  padding: 1em;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  position: absolute;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -210,17 +203,17 @@ h1 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 h2 {
-  font-size: 250%;
+  font-size: 350%;
   line-height: 1em;
-  width: 50%;
-  float: right;
-  background: #06a294 url(../img/circle.svg);
+  width: 20%;
+  float: left;
+  background: #ff0000 url(../img/circle.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size: 101%;
-  height: 20.019em;
-  margin: 0 0 0 0;
-  padding: 7em 0.5em 0 0.5em;
+  background-size: 100%;
+  height: 14.289em;
+  margin: 0 0 0 20%;
+  padding: 3em 0.5em 0 0.5em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -231,8 +224,8 @@ h2 {
   float: left;
   background: url(../img/circle-white.svg);
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 101%;
+  background-position: left bottom;
+  background-size: 100%;
   height: 50em;
   margin: 0;
   padding: 17.3em 2em 10em 2em;
@@ -247,28 +240,23 @@ h2 {
 .preamble {
   position: relative;
   float: left;
-  width: 60.1%;
+  width: 40%;
   margin: 0 0 0 20%;
-  padding: 2em 0.5em 27em 0;
+  padding: 2em 0.5em 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.preamble h3 {
-  margin-right: 35%;
-}
-.preamble p {
-  margin-right: 35%;
-}
 .preamble p:last-child {
-  position: absolute;
+  position: relative;
   z-index: 2;
   background: rgba(232, 66, 48, 0.9);
-  width: 33.650%;
-  top: -1em;
-  right: 0;
-  margin-right: 0;
-  padding: 6em 0.5em 8em 0.5em;
+  width: 50.6%;
+  float: right;
+  top: -15.455em;
+  margin-right: -51.8%;
+  margin-bottom: 0;
+  padding: 5.89em 0.5em 15em 0.5em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -282,27 +270,28 @@ h2 {
   z-index: 1;
   top: -25em;
   margin-bottom: 10em;
-  padding: 20em 0;
+  padding: 12em 0;
   position: relative;
 }
 .main footer {
   display: block;
-  position: relative;
+  position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -5em;
   width: 20%;
+  float: left;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .main footer a {
-  margin: 0 0.25em;
+  margin: 0 1em;
 }
 .explanation {
   position: relative;
   background: rgba(232, 66, 48, 0.9);
-  width: 40%;
+  width: 20%;
   margin: 0;
   padding: 0.5em;
   -webkit-box-sizing: border-box;
@@ -310,37 +299,56 @@ h2 {
   box-sizing: border-box;
 }
 .participation {
-  background: #f6efe5;
+  background: url(../img/circle.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
   position: absolute;
   right: 40%;
+  bottom: -45em;
   z-index: 2;
-  margin-top: 14em;
-  width: 40%;
-  padding: 0.5em;
+  margin-top: 2em;
+  width: 20%;
+  float: left;
+  display: block;
+  padding: 25em 0.5em 0.5em 0.5em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .benefits {
-  background: rgba(232, 66, 48, 0.9);
+  background: url(../img/circle.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
   position: absolute;
   right: 20%;
+  bottom: -31em;
   z-index: 2;
-  margin-top: 8em;
-  margin-left: 0;
+  margin-top: 2em;
+  margin-left: 20%;
   width: 20%;
-  padding: 1em 0.5em 4em 0.5em;
+  float: left;
+  display: block;
+  padding: 25em 0.5em 0.5em 0.5em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .requirements {
+  background: url(../img/circle.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
   position: absolute;
   right: 0;
+  bottom: -73em;
   z-index: 2;
-  margin-top: 48em;
-  width: 60%;
-  padding: 0.5em;
+  margin-top: 2em;
+  width: 20%;
+  float: left;
+  display: block;
+  padding: 25em 0.5em 0.5em 0.5em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -349,24 +357,24 @@ h2 {
   margin-top: 13em;
 }
 .design-selection h3 {
-  width: 100%;
+  width: 20%;
   float: left;
   padding: 10.5em 0 0 0;
-  text-align: left;
+  text-align: right;
 }
 .design-selection nav {
   overflow: hidden;
   width: 60%;
 }
 .design-selection nav ul {
-  padding: 2em 0;
+  padding: 8em 0;
   background: #ec9322;
   overflow: hidden;
 }
 .design-selection nav ul li {
   display: inline-block;
   list-style: none;
-  width: 100%;
+  width: 60%;
   float: left;
   padding: 3em 0.5em;
   -webkit-box-sizing: border-box;
@@ -377,49 +385,49 @@ h2 {
 .design-selection nav ul li:nth-child(1)::before {
   content: "1";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(2)::before {
   content: "2";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(3)::before {
   content: "3";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(4)::before {
   content: "4";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(5)::before {
   content: "5";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(6)::before {
   content: "6";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(7)::before {
   content: "7";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-selection nav ul li:nth-child(8)::before {
   content: "8";
   font-size: 700%;
-  padding: 0 1em 0 0;
+  padding: 0 1.6em 0 1em;
   color: rgba(0, 0, 0, 0.1);
 }
 .design-archives {
