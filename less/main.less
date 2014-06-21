@@ -83,12 +83,11 @@ a:hover {
 		height:50em;
 		float:left;
 		@media (max-width: @md-screen) {
-			background:@aqua;
+			background:@orange;
         	width:100%;
         	height:27em;
     	}
     	@media (max-width: @sm-screen) {
-    		background:@orange;
         	height:20em;
     	}	
 
@@ -161,7 +160,7 @@ a:hover {
 		@media (max-width: @md-screen) {
         	width:100%;
         	height:auto;
-        	padding:2em 0.5em 37% 0.5em;
+        	padding:2em 1em 37% 1em;
     	}
 		p {
 			padding:0 40% 2em 0 ;
@@ -202,7 +201,7 @@ a:hover {
     		overflow:hidden;
 			width:100%;
         	margin:0;
-        	padding:0 0.5em;
+        	padding:0 1em;
     	}
 		h3 {
 			margin-right:35%;
@@ -258,7 +257,7 @@ a:hover {
 	position: relative;
 	z-index: 1;
 	top:-25em;
-	margin-bottom:10em;
+	margin-bottom:1em;
 	padding:20em 0;
 	position: relative;
 	@media (max-width: @md-screen) {
@@ -273,7 +272,7 @@ a:hover {
 		display:block;
 		position: absolute;
 		left:1em;
-		bottom:-10em;
+		bottom:0;
 		width:20%;
 		padding:0;
 	  	-webkit-box-sizing: border-box;
@@ -318,7 +317,7 @@ a:hover {
 	    	background: @navy;
 	        width:100%;
 	        margin:0;
-	        padding:1em 0.5em;
+	        padding:1em;
 	    }
 		h3 {
 			position: absolute;
@@ -339,9 +338,9 @@ a:hover {
 			filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 			@media (max-width: @sm-screen) {
 				position: relative;
+				font-size: 150%;
 				top: 0;
 				left: 0;
-				line-height: 1em;
 				padding: 0;
 		        -webkit-transform: rotate(0deg);
 				-moz-transform: rotate(0deg);
@@ -415,7 +414,7 @@ a:hover {
 			right:0;
 			width:100%;
 			margin-top:0;
-			padding:1em 0.5em;
+			padding:1em;
 	    }
 		h3 {
 			font-size: 150%;
@@ -447,7 +446,7 @@ a:hover {
 			position: relative;
 			width:100%;
 			margin:0;
-			padding:1em 0.5em;
+			padding:1em;
 	    }
 		h3 {
 			position: absolute;
@@ -522,7 +521,8 @@ a:hover {
 		margin-top:60em;
     }
     @media (max-width: @sm-screen) {
-		margin-top:20em;
+    	margin-top:2em;
+		padding-top:2em;
     }
 	.design-selection {
 		h3 {
@@ -549,7 +549,7 @@ a:hover {
 			// overflow:hidden;
 			width:80%;
 			margin-left:20%;
-			padding:8em 0 2em 0;
+			padding:1em 0 2em 0;
 			@media (max-width: @md-screen) {
 				width:100%;
 				margin-left:0;
@@ -569,6 +569,7 @@ a:hover {
 			        text-align: left;
 				        @media (max-width: @sm-screen) {
 							width:100%;
+							padding:5em 1em 2em 1em;
 					    }
 			        a {
 					color:#ffffff;
@@ -591,7 +592,7 @@ a:hover {
 					padding:39em 1em 2em 1em;
 					@media (max-width: @sm-screen) {
 						margin-top:0; 
-						padding:10em 1em 2em 1em;
+						padding:5em 1em 2em 1em;
 				    }
 				}
 				li:nth-child(2) {background:#f15a30;}
@@ -602,14 +603,62 @@ a:hover {
 				li:nth-child(7) {background:#31c5da;}
 				li:nth-child(8) {background:#f15a30;}
 
-				li:nth-child(1)::before {content: "1";font-size:700%;}
-				li:nth-child(2)::before {content: "2";font-size:700%;}
-				li:nth-child(3)::before {content: "3";font-size:700%;}
-				li:nth-child(4)::before {content: "4";font-size:700%;}
-				li:nth-child(5)::before {content: "5";font-size:700%;}
-				li:nth-child(6)::before {content: "6";font-size:700%;}
-				li:nth-child(7)::before {content: "7";font-size:700%;}
-				li:nth-child(8)::before {content: "8";font-size:700%;}
+				li:nth-child(1)::before {
+					content: "1";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(2)::before {
+					content: "2";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(3)::before {
+					content: "3";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(4)::before {
+					content: "4";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(5)::before {
+					content: "5";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(6)::before {
+					content: "6";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(7)::before {
+					content: "7";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
+				li:nth-child(8)::before {
+					content: "8";
+					font-size:700%;
+					@media (max-width: @sm-screen) {
+						font-size:300%;
+				    }
+				}
 			}
 		}
 	}

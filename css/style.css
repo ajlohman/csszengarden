@@ -214,14 +214,13 @@ a:hover {
 }
 @media (max-width: 70em) {
   .intro header {
-    background: #31c5da;
+    background: #f15a30;
     width: 100%;
     height: 27em;
   }
 }
 @media (max-width: 53em) {
   .intro header {
-    background: #f15a30;
     height: 20em;
   }
 }
@@ -299,7 +298,7 @@ a:hover {
   .intro .summary {
     width: 100%;
     height: auto;
-    padding: 2em 0.5em 37% 0.5em;
+    padding: 2em 1em 37% 1em;
   }
 }
 .intro .summary p {
@@ -347,7 +346,7 @@ a:hover {
     overflow: hidden;
     width: 100%;
     margin: 0;
-    padding: 0 0.5em;
+    padding: 0 1em;
   }
 }
 .intro .preamble h3 {
@@ -405,7 +404,7 @@ a:hover {
   background-size: cover;
   z-index: 1;
   top: -25em;
-  margin-bottom: 10em;
+  margin-bottom: 1em;
   padding: 20em 0;
   position: relative;
 }
@@ -425,7 +424,7 @@ a:hover {
   display: block;
   position: absolute;
   left: 1em;
-  bottom: -10em;
+  bottom: 0;
   width: 20%;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -478,7 +477,7 @@ a:hover {
     background: #0d2c40;
     width: 100%;
     margin: 0;
-    padding: 1em 0.5em;
+    padding: 1em;
   }
 }
 .main .explanation h3 {
@@ -502,9 +501,9 @@ a:hover {
 @media (max-width: 53em) {
   .main .explanation h3 {
     position: relative;
+    font-size: 150%;
     top: 0;
     left: 0;
-    line-height: 1em;
     padding: 0;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -588,7 +587,7 @@ a:hover {
     right: 0;
     width: 100%;
     margin-top: 0;
-    padding: 1em 0.5em;
+    padding: 1em;
   }
 }
 .main .benefits h3 {
@@ -624,7 +623,7 @@ a:hover {
     position: relative;
     width: 100%;
     margin: 0;
-    padding: 1em 0.5em;
+    padding: 1em;
   }
 }
 .main .requirements h3 {
@@ -702,7 +701,8 @@ a:hover {
 }
 @media (max-width: 53em) {
   .sidebar {
-    margin-top: 20em;
+    margin-top: 2em;
+    padding-top: 2em;
   }
 }
 .sidebar .design-selection h3 {
@@ -732,7 +732,7 @@ a:hover {
 .sidebar .design-selection nav {
   width: 80%;
   margin-left: 20%;
-  padding: 8em 0 2em 0;
+  padding: 1em 0 2em 0;
 }
 @media (max-width: 70em) {
   .sidebar .design-selection nav {
@@ -758,6 +758,7 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li {
     width: 100%;
+    padding: 5em 1em 2em 1em;
   }
 }
 .sidebar .design-selection nav ul li a {
@@ -783,7 +784,7 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(1) {
     margin-top: 0;
-    padding: 10em 1em 2em 1em;
+    padding: 5em 1em 2em 1em;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(2) {
@@ -811,33 +812,73 @@ a:hover {
   content: "1";
   font-size: 700%;
 }
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(1)::before {
+    font-size: 300%;
+  }
+}
 .sidebar .design-selection nav ul li:nth-child(2)::before {
   content: "2";
   font-size: 700%;
+}
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(2)::before {
+    font-size: 300%;
+  }
 }
 .sidebar .design-selection nav ul li:nth-child(3)::before {
   content: "3";
   font-size: 700%;
 }
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(3)::before {
+    font-size: 300%;
+  }
+}
 .sidebar .design-selection nav ul li:nth-child(4)::before {
   content: "4";
   font-size: 700%;
+}
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(4)::before {
+    font-size: 300%;
+  }
 }
 .sidebar .design-selection nav ul li:nth-child(5)::before {
   content: "5";
   font-size: 700%;
 }
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(5)::before {
+    font-size: 300%;
+  }
+}
 .sidebar .design-selection nav ul li:nth-child(6)::before {
   content: "6";
   font-size: 700%;
+}
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(6)::before {
+    font-size: 300%;
+  }
 }
 .sidebar .design-selection nav ul li:nth-child(7)::before {
   content: "7";
   font-size: 700%;
 }
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(7)::before {
+    font-size: 300%;
+  }
+}
 .sidebar .design-selection nav ul li:nth-child(8)::before {
   content: "8";
   font-size: 700%;
+}
+@media (max-width: 53em) {
+  .sidebar .design-selection nav ul li:nth-child(8)::before {
+    font-size: 300%;
+  }
 }
 .sidebar .design-archives {
   background: #31c5da;
