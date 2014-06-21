@@ -828,6 +828,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(1)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(2)::before {
@@ -837,6 +839,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(2)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(3)::before {
@@ -846,6 +850,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(3)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(4)::before {
@@ -855,6 +861,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(4)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(5)::before {
@@ -864,6 +872,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(5)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(6)::before {
@@ -873,6 +883,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(6)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(7)::before {
@@ -882,6 +894,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(7)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-selection nav ul li:nth-child(8)::before {
@@ -891,6 +905,8 @@ a:hover {
 @media (max-width: 53em) {
   .sidebar .design-selection nav ul li:nth-child(8)::before {
     font-size: 300%;
+    display: block;
+    padding: 0 0 0.25em 0;
   }
 }
 .sidebar .design-archives {
