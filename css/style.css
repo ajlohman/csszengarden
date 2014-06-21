@@ -350,6 +350,7 @@ a:hover {
   }
 }
 .intro .preamble h3 {
+  font-size: 150%;
   margin-right: 35%;
 }
 @media (max-width: 53em) {
@@ -374,7 +375,7 @@ a:hover {
   top: -1em;
   right: 0;
   margin-right: 0;
-  padding: 12em 1em 25em 1em;
+  padding: 10em 1em 27em 1em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -410,7 +411,7 @@ a:hover {
 }
 @media (max-width: 70em) {
   .main {
-    top: 0;
+    top: -25em;
   }
 }
 @media (max-width: 53em) {
@@ -424,7 +425,7 @@ a:hover {
   display: block;
   position: absolute;
   left: 1em;
-  bottom: 0;
+  bottom: 1em;
   width: 20%;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -582,12 +583,13 @@ a:hover {
 }
 @media (max-width: 53em) {
   .main .benefits {
-    background: rgba(0, 188, 217, 0.8);
+    background: rgba(0, 188, 217, 0.8) url(../img/icon-circles.svg) no-repeat center top;
+    background-size: 33%;
     position: relative;
     right: 0;
     width: 100%;
     margin-top: 0;
-    padding: 1em;
+    padding: 11em 1em 1em 1em;
   }
 }
 .main .benefits h3 {
@@ -976,10 +978,11 @@ a:hover {
 }
 @media (max-width: 53em) {
   .sidebar .zen-resources {
-    background: #31c5da;
+    background: #31c5da url(../img/icon-circles.svg) no-repeat center bottom;
+    background-size: 35%;
     width: 100%;
     margin: 0;
-    padding: 2em 1em 4em 1em;
+    padding: 2em 1em 10em 1em;
   }
 }
 .sidebar .zen-resources h3 {
